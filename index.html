@@ -10,11 +10,23 @@
 		<div class = 'topBar'>
 			<div class = 'title'>Fleep</div>
 		</div>
-		<div class = 'fleepEnv'>
-			<img class = fleep src="resources/baby.png" alt="Fleep">
-		</div>
-		<div class = 'interactBar'>
 
+		<div class = 'fleepEnv'>
+			<img class = 'fleep' src="resources/baby.png" alt="Fleep">
+			<div class = 'stats'>
+				<div id="hunger"></div>
+				<div id="love"></div>
+				<div id="quest"></div>
+			</div>
+			<div id="message">
+				
+			</div>
+		</div>
+		
+		<div class = 'interactBar'>
+			<button id="feedButt">Feed</button>
+			<button id="patButt">Pat</button>
+			<button id="questButt">???</button>
 		</div>
 	</body>
 	<script src = 'fleepScript.js'>
