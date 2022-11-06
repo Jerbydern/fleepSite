@@ -1,0 +1,26 @@
+* {
+    font-family: Copperplate;
+    margin: 0%;
+
+}
+body {
+    background-image: url("resources/paper.webp");
+}
+.topBar {
+    display: flex;
+    background-color: rgb(174, 120, 25);
+    justify-content: center;
+}
+.title {
+    padding:20px;
+    font-size: 60px;
+}
+
+
+
+.fleepEnv {
+    border: 4px black solid;
+    height: 600px;
+    width: auto;
+    
+}
