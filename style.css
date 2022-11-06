@@ -22,5 +22,18 @@ body {
     border: 4px black solid;
     height: 600px;
     width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fleep{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+
+.interactBar {
+    display: flex
     
 }
